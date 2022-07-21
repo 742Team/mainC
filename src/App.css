@@ -1,5 +1,12 @@
-.App {
-  text-align: center;
+.App,
+div,
+main,
+html,
+h1 {
+  background-image: url(https://64.media.tumblr.com/e2215368587b524bf4c21c330ab1a82b/tumblr_njl5ijhBJm1qhrm3lo1_500.gifv);
+  background-size: cover;
+  background-image: no-repeat;
+  color: white ;
 }
 
 .App-logo {
@@ -21,7 +28,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -36,3 +42,112 @@
     transform: rotate(360deg);
   }
 }
+
+img.giphy-embed {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  viewport-fit: 100vh;
+}
+
+.main,
+h1,
+p {
+  background-color: black;
+  background-image: url(https://64.media.tumblr.com/e2215368587b524bf4c21c330ab1a82b/tumblr_njl5ijhBJm1qhrm3lo1_500.gifv);
+  /* background-image: url(https://i.giphy.com/media/fqVodOPZg9uBYvYjes/giphy.webp); */
+  background-size: cover;
+  background-image: no-repeat;
+  height: 800px;
+  width: 100%;
+}
+
+.main,
+nav {
+  background-color: black;
+  background-image: url(https://64.media.tumblr.com/e2215368587b524bf4c21c330ab1a82b/tumblr_njl5ijhBJm1qhrm3lo1_500.gifv);
+  /* background-image: url(https://i.giphy.com/media/fqVodOPZg9uBYvYjes/giphy.webp); */
+  background-size: cover;
+  background-image: no-repeat;
+  width: 100%;
+  color: white;
+  text-emphasis: none;
+  text-decoration: none;
+}
+
+.main,
+h1 {
+  margin: none;
+  height: 100%;
+  width: 100%;
+  viewport-fit: 100%;
+}
+
+.top-header-nav:hover h1.headerNav:hover {
+  text-decoration: underline;
+  text-emphasis: none;
+  border-bottom: none;
+  border: none;
+  box-shadow: blur 1px;
+  color: white;
+}
+
+/* .headerNav.top-header-nav:hover{ */
+  /* cursor: pointer; */
+  /* background-color: #454545 ; */
+/* } */
+
+
+/* body { */
+  /* background-color: black; */
+/* } */
+
+
+p,
+h2 {
+  /* box-sizing: 1rem 1rem 1rem; */
+  /* box-sizing: content-box; */
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  background-image: url(https://media1.giphy.com/media/CKlafeh1NAxz35KTq4/giphy.gif?cid=ecf05e47lzmat0z6acyxz44c3jp2eobbkxnsx3e56atf5fq7&rid=giphy.gif&ct=g);
+  background-size: cover;
+  background-image: no-repeat;
+  color: white;
+  font-weight: 570;
+  font-size: large;
+  height: 300px;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  background-image: url(https://64.media.tumblr.com/e2215368587b524bf4c21c330ab1a82b/tumblr_njl5ijhBJm1qhrm3lo1_500.gifv);
+  background-size: cover;
+  background-image: no-repeat;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.footer,
+h1 {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  /* margin: -18px; */
+}
+
+div,
+.footer {
+  height: 40px;
+  width: 100%;
+}
+/* p {
+  display: flex;
+  justify-content: space-around;
+  margin: 14.94px;
+} */
